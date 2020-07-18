@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/layout_margin"
+    android:paddingTop="@dimen/small_padding"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -18,8 +20,7 @@
             android:layout_height="wrap_content"
             android:text="@string/name"
             android:textAlignment="center"
-            android:textColor="#0E0303"
-            android:textSize="@dimen/text_size" />
+            style="@style/NameStyle" />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
